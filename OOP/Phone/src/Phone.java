@@ -21,8 +21,6 @@ public abstract class Phone {
     
     
     
-    
-    
 	public String getVersionNumber() {
 		return versionNumber;
 	}
