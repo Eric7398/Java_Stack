@@ -8,11 +8,13 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Time Dashboard</title>
+<title>Counter</title>
 </head>
 <body>
-	<a href="/date"><h2>Date Template</h2></a>
-	<a href="/time"><h2>Time Template</h2></a>
-
+	
+	<h3>You have visited <a href="/">this site</a> <c:out value="${count}"/> times</h3>
+	<a href="http://localhost:8080">Test another visit?</a><br>
+	<a href="/reset">Reset</a>
+	
 </body>
 </html>

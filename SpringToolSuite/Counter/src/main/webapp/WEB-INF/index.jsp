@@ -8,11 +8,9 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Time Dashboard</title>
+<title>Welcome</title>
 </head>
 <body>
-	<a href="/date"><h2>Date Template</h2></a>
-	<a href="/time"><h2>Time Template</h2></a>
-
+	<h1><a href="/counter">Welcome User!</a></h1>
 </body>
 </html>
